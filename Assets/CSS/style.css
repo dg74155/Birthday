@@ -1,0 +1,55 @@
+h1	{
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom:25px;
+}
+
+body {
+	background-image: url("../Images/bdaydog.png");no-repeat center center fixed; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+	
+}
+
+#button	{
+	position: relative;
+	left: 550px;
+	top: 200px;
+}
+
+#mak	{
+	width: 650px;
+	height: 500px;
+}
+
+#beam	{
+	width: 500px;
+	height: 800px;
+	margin-left: 200px;
+}
+
+#mom	{
+	width: 500px;
+	height: 800px;
+}
+
+#ty  {
+	width: 500px;
+	height: 500px;
+	margin-left: 25px;
+}
+
+#text 	{
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 5px;
+	padding-left: 5px;
+	max-width: 95%;
+	margin-left: 25px;
+}

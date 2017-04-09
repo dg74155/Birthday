@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dad's Birthday</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet"  type="text/css"  href="Assets/CSS/style.css">
+</head>
+<body>
+<div class="container">
+<h1 class="blue lighten-2">Happy Birthday Dad!!!!!</h1>
+</div>
+<div id="buttonh">
+<a class="waves-effect waves-light btn" id="button">Click Here<i class="material-icons right">redeem</i></a>
+</div>
+<div id="pics">
+<img id="mak" src="Assets/Images/mak.jpg">
+<img id="mom" src="Assets/Images/mom.png">
+<img id="ty" src="Assets/Images/ty.jpg">
+<img id="beam" src="Assets/Images/IMG_3502.PNG">
+</div>
+<br>
+<br>
+<div id="text">
+<p>Happy, Happy Birthday Dad!!!! I love you so much and I'm so blessed and grateful to have had you as my father.  You truly are one of the greatest people that I have ever known and I would want no other person to have raised me.  You have always been there for us, providing, loving, protecting, and educating us no matter what the circumstances.  You are the definition of a great father.  I miss you so much, but hopefully someday soon I can be closer and we can finally have our deep sea fishing vacation.  I love you so much and I hope that you have a great birthday!<br><br>Your son, Derek.</p>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+<script type="text/javascript">
+
+
+$("#pics").hide();
+$("#text").hide();
+
+$("#button").on("click", function(event)	{
+	$("#button").hide();
+	$("#pics").show();
+  $("#text").show();
+
+});
+</script>
+
+</body>
+</html>
